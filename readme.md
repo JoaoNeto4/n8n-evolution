@@ -107,18 +107,6 @@ docker compose pull && docker compose up -d --remove-orphans
 - **Logs**: use `docker compose logs -f <nome_do_servico>` para ver erros em tempo real.
  - **Terminal na pasta do projeto**: sempre que for executar qualquer comando, abra o terminal na pasta do projeto (onde está o arquivo `docker-compose.yaml`).
 
-### Remover tudo (inclusive volumes)
-ATENÇÃO: isto apaga dados persistidos em volumes.
-
-```bash
-docker compose down -v
-```
-
-### Suporte
-Se precisar de ajuda, pode falar comigo. Abra uma issue no repositório ou entre em contato pelas minhas redes (veja abaixo em "Minhas Redes Sociais").
-
-### Licença
-Use e adapte livremente conforme suas necessidades.
 
 
 #
